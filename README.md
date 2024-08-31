@@ -10,7 +10,7 @@ Before diving into the code, it is recommended to first review the accompanying 
 ### 2. Two-Node Example
 The [Two_node_example.ipynb](Two-Node%20Example.ipynb) notebook serves as a practical introduction to the power flow calculation method. This notebook walks you through the implementation of the method in a simple two-node network, helping you practice and verify the concepts learned.
 ### 3. Generalized Power Flow Basic Model
-For more complex networks, the generalized model - [Basic Model](Generalized%20Basic%20Model.ipynb) implemented in this repository can be used to calculate the power flow in grids with multiple buses and lines. The model is flexible and can handle networks with various configurations, provided that the parameters for buses and lines are given in the specified format.
+For more complex networks, the [Generalized Basic Model](Generalized%20Basic%20Model.ipynb) implemented in this repository can be used to calculate the power flow in grids with multiple buses and lines. The model is flexible and can handle networks with various configurations, provided that the parameters for buses and lines are given in the specified format.
 ## Features
 [Two-Node Example](Two-Node%20Example.ipynb): A simple and clear demonstration of power flow calculation in a basic network.
 
