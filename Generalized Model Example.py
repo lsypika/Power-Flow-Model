@@ -21,6 +21,10 @@ generators_p_df = pd.read_csv("./Model_input/generators-p.csv")
 links_p0_df = pd.read_csv("./Model_input/links-p_set.csv")
 loads_p_df = pd.read_csv("./Model_input/loads-p_set.csv")
 snapshots_df = pd.read_csv("./Model_input/snapshots.csv")
+'''
+## You can modify the above input code to read the data you want to simulate.
+'''
+
 
 # add ids for nodes
 buses_df["id"] =  range(len(buses_df))
