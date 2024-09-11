@@ -674,8 +674,8 @@ for i in range(len(connected_components)):
             ## The third loop is:
             ## iterations in N-R method
             # Continue iterations until mismatch is small enough or the 10th time
-            for iter_number  in range(1,11):
-                if np.any(mismatches[np.abs(mismatches) > 0.002]):
+            for iter_number  in range(1,99):
+                if np.any(mismatches[np.abs(mismatches) > 0.001]):
                     # print("iter: ",iter_number )
                     for i in range(PN):
                         bus = P_mapping[i]
@@ -705,7 +705,9 @@ for i in range(len(connected_components)):
                     except np.linalg.LinAlgError:
                         print("J is unreversible")
                         break
-            
+                else:
+                    break
+
             # calculate P for slack; Q for slack and PV bus for each snapshot
             P[implicit_slack] = p_cal(implicit_slack, V, theta, implicit_buses)
             Q[implicit_slack] = q_cal(implicit_slack, V, theta, implicit_buses)
