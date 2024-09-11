@@ -1,0 +1,4 @@
+name,bus,capital_cost,carrier,control,efficiency,marginal_cost,p_nom,p_nom_extendable,p_nom_min
+Manchester Wind,Manchester,2793.65160293,wind,Slack,1.0,0.11,80.0,True,100.0
+Norway Wind,Norway,2184.37479609,wind,Slack,1.0,0.09,100.0,True,100.0
+Frankfurt Wind,Frankfurt,2129.45612248,wind,Slack,1.0,0.1,110.0,True,100.0
