@@ -1,5 +1,5 @@
 # Power Flow Calculation in Python
-This repository implements power flow calculation methods using Python. The code is based on theoretical approaches presented in [text slides](Materials\TextSlides-Load%20generation%20balance.pptx) and provides a generalized model for calculating the power flow in electrical grids.
+This repository implements power flow calculation methods using Python. The code is based on Nodal Power Balance Analysis and Newton-Raphson algorithm and provides a generalized model for calculating the power flow in electrical grids.
 
 ## Overview
 The repository contains a step-by-step implementation of power flow calculating method, beginning with a simple two-node example and extending to a more generalized model that can be applied to larger and more complex networks. The generalized model is designed to calculate the power balance and line flows in an electrical grid based on given parameters for buses (nodes) and lines in a specific excel format.
