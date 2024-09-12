@@ -28,4 +28,4 @@ Two versions are provided:
 [Customizable](Model_input): The model can be adapted to different network configurations by adjusting the input parameters here.
 
 ## Applications
-This repository try to be a practical tool for students and researchersworking in the field of power systems. It produces examples with explanation for power flow studies and can be used to produce power flow data for further applications, such as analyzing the performance and stability of electrical grids under various operating conditions.
+This repository try to be a practical tool for students and researchers working in the field of power systems. It produces examples with explanation for power flow studies and can be used to produce power flow data for further applications, such as analyzing the performance and stability of electrical grids under various operating conditions.
