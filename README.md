@@ -25,7 +25,7 @@ Two versions are provided:
 
 [Generalized Model](Generalized%20Model%20Example.py): After modifying the input data, directly run the simulation to use.
 
-[Customizable](Model_input): The model can be adapted to different network configurations by adjusting the input parameters here.
+[Customizable](Model_input): The model can be adapted to different network configurations by adjusting the input parameters.
 
 ## Applications
-This repository try to be a practical tool for students and researchers working in the field of power systems. It produces examples with explanation for power flow studies and can be used to produce power flow data for further applications, such as analyzing the performance and stability of electrical grids under various operating conditions.
+This repository tries to be a practical tool for students and researchers working in the field of power systems. It provides examples with explanations for power flow studies and can be used to produce power flow data for further applications, such as analyzing the performance and stability of electrical grids under various operating conditions.
