@@ -12,7 +12,7 @@ The [Two-Node Example](Two-Node%20Example.ipynb) notebook serves as a practical 
 ### 3. Generalized Power Flow Model
 For more complex networks, the Generalized Model implemented in this repository can be used to calculate the power flow in grids with multiple buses and lines. The model is flexible and can handle networks with various configurations, provided that the parameters for buses and lines are given in the specified format. 
 
-The model is verified: downloaded the 9-node power network data from the [PyPSA example](Original_data\Data_lpf_result): https://github.com/PyPSA/PyPSA/tree/master/examples/ac-dc-meshed/ac-dc-data/results-lpf, selected the necessary parts as the [model input](Model_input), and then used this model to simulate and calculate to obtain the [model output data](Model_output). Moreover, after comparing with the original data, our results are very close to it, so it can be judged that the function of this model is correct.
+The model is verified: downloaded the 9-node power network data from the [PyPSA example](Original_data/Data_lpf_result): https://github.com/PyPSA/PyPSA/tree/master/examples/ac-dc-meshed/ac-dc-data/results-lpf, selected the necessary parts as the [model input](Model_input), and then used this model to simulate and calculate to obtain the [model output data](Model_output). Moreover, after comparing with the original data, our results are very close to it, so it can be judged that the function of this model is correct.
 
 Two versions are provided: 
 - the [explanation version](Generalized%20Model%20with%20Explanation.ipynb), which aims to help understand the model; 
